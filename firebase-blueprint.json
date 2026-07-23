@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "users": {
+      "title": "Users",
+      "description": "PartyPlatter users and accounts",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "role": { "type": "string" }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "bookings": {
+      "title": "Bookings",
+      "description": "PartyPlatter event catering bookings and orders",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "vendorId": { "type": "string" },
+        "status": { "type": "string" },
+        "totalAmount": { "type": "number" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "totalAmount"]
+    }
+  }
+}

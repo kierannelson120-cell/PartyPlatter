@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Party Platter V2",
+  "description": "On-demand catering and event dining marketplace to book Food Trucks, Private Chefs, and Caterers for personal events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
